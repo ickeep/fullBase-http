@@ -1,0 +1,41 @@
+{
+  "name": "fullbase-http",
+  "description": "fullBase-http",
+  "version": "0.1.0",
+  "author": "icKeep <i@ickeep.com>",
+  "main": "dist.js",
+  "scripts": {
+    "dist": "babel index.js --out-file dist.js"
+  },
+  "dependencies": {
+    "fullbase-axios": "^1.0.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-minify": "^0.4.3",
+    "babel-preset-stage-1": "^6.24.1"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ickeep/fullBase-http.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ickeep/fullBase-http/issues"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "homepage": "https://github.com/ickeep/fullBase-http#readme",
+  "keywords": [
+    "http",
+    "axios",
+    "full",
+    "base",
+    "fullbase"
+  ]
+}
